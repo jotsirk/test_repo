@@ -1,4 +1,4 @@
 {
   "name" : "test_repo",
-  "cloneable" : true
+  "cloneable" : false
 }
