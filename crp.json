@@ -1,6 +1,7 @@
 {
   "name" : "test_repo",
   "cloneable" : false,
-  "closable": false,
-  "fileable": true
+  "dedicated" : false,
+  "nicCount" : 0,
+  "variables" : [ ]
 }
