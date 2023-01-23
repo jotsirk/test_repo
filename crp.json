@@ -1,7 +1,7 @@
 {
   "name" : "test_repo",
   "cloneable" : false,
-  "dedicated" : false,
   "nicCount" : 0,
+  "autoRemoveContainer" : true,
   "variables" : [ ]
 }
