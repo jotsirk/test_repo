@@ -1,4 +1,7 @@
 {
-  "name" : "test_repo",
-  "cloneable" : true
+  "name" : "imported_repo",
+  "cloneable" : true,
+  "nicCount" : 0,
+  "autoRemoveContainer" : true,
+  "variables" : [ ]
 }
