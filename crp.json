@@ -3,5 +3,6 @@
   "cloneable" : true,
   "nicCount" : 0,
   "autoRemoveContainer" : true,
-  "variables" : [ ]
+  "variables" : [ ],
+  "type" : "SYSTEM"
 }
