@@ -1,8 +1,4 @@
 {
   "name" : "test_repo",
-  "cloneable" : true,
-  "nicCount" : 0,
-  "autoRemoveContainer" : true,
-  "variables" : [ ],
-  "type" : "SYSTEM"
+  "cloneable" : false
 }
