@@ -3,14 +3,18 @@
   hosts: all
   connection: local
 
+
   tasks:
 
     # - name: Include task list in play
     #   ansible.builtin.include_tasks: clone_rest.yml
 
+
   - name: Print debug message
     debug:
-      msg: "Var1 was v0.3 and var2 was v0.3"
+      msg: "Var1 was {{var1}} and var2 was {{var2}}"
+
+
 
   # - name: Create a virtual machine from a template
   #   community.vmware.vmware_guest:
