@@ -1,0 +1,32 @@
+# example of ansible based inventory:
+
+all:
+  vars: 
+    globalvar1: "variable1"
+    globalvar2: "variable2"
+    vcenter_hostname: "vc.i3.crp.sh"
+    vcenter_username: "usernamehare"
+    vcenter_password: "passwordhere."
+    vcenter_validate_certs: false
+    datacenter: "CRP"
+    vm_template: template_ubuntu_server_2204_pvscsi
+    cluster: "crp-cluster-01"
+    datastore: "i3-game-vmfs-01"
+  hosts:
+    ansible_poc_vm_1:
+      var1: "bignumber"
+      var2: "9999"
+      cpus: 2
+      ram: 4096
+      nic1_portgroup: "i3-game-testing-01"
+      resource_pool: "i3-DEVELOPMENT"
+      folder: "i3-DEVELOPMENT"
+
+    ansible_poc_vm_2:
+      var1: "small number"
+      var2: "3"
+      cpus: 2
+      ram: 4096
+      nic1_portgroup: "i3-game-testing-01"
+      resource_pool: "i3-DEVELOPMENT"
+      folder: "i3-DEVELOPMENT"
