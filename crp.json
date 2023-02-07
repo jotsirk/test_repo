@@ -2,8 +2,8 @@
   "name" : "test_repo",
   "cloneable" : true,
   "nicCount" : 0,
+  "dockerImageName" : "ansible-runner-poc",
   "autoRemoveContainer" : false,
   "variables" : [ ],
-  "type" : "SYSTEM",
-  "dockerImageName": "ansible-runner-poc"
+  "type" : "SYSTEM"
 }
