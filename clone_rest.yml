@@ -1,7 +1,5 @@
 # example of ansible based inventory:
 
-## some more stuff
-
 all:
   vars: 
     globalvar1: "variable1"
