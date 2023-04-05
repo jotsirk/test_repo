@@ -1,7 +1,7 @@
 {
-  "name" : "test_repo",
+  "name" : "test",
   "cloneable" : true,
-  "externalId" : "64241d6e3ecc725093be32f3",
+  "externalId" : "642d48b0e3b69c29bfd91d6a",
   "nicCount" : 3,
   "dockerImageName" : "ansible-runner-poc",
   "autoRemoveContainer" : false,
